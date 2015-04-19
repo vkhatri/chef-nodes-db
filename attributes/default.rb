@@ -1,0 +1,10 @@
+default['nodes_db']['environments'] = %w(production)
+default['nodes_db']['cluster_attribute'] = 'flock'
+default['nodes_db']['application_attribute'] = 'application'
+default['nodes_db']['ignore_node_error'] = true
+default['nodes_db']['username'] = 'rundeck'
+default['nodes_db']['dir'] = '/opt/chef-nodes-db'
+default['nodes_db']['user'] = 'root'
+default['nodes_db']['group'] = 'root'
+default['nodes_db']['mode'] = '0755'
+default['nodes_db']['file_type'] = 'all' # options: yaml json all
